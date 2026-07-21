@@ -13,15 +13,21 @@ Handles first-time install and future updates with the same command — extracts
 ## Usage
 
 1. Download the latest `Antigravity IDE.tar.gz` to `~/Downloads/`
-2. Run:
+2. Make the script executable (only needed once):
+
+```bash
+   chmod +x update-antigravity.sh
+```
+
+3. Run:
 
 ```bash
    ./update-antigravity.sh
 ```
 
-3. Enter your sudo password when prompted (sandbox permission fix)
+4. Enter your sudo password when prompted (sandbox permission fix)
 
-That's it — the app launches automatically once done. Run the same script again whenever a new version comes out.
+That's it — the app launches automatically once done. Run the same script again (no need to `chmod` again) whenever a new version comes out.
 
 ## What it does
 
